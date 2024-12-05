@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+}
+
+@font-face {
+  font-family: "Glicker"; /* Nom de la police */
+  src: url("/font/Gliker-Bold.woff") format("woff2"),
+    /* Format moderne */ url("font/Gliker-Bold.woff") format("woff"); /* Format de secours */
+  font-weight: normal; /* Spécifie le poids */
+  font-style: normal; /* Spécifie le style */
+}
+
+.sky {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 10px;
+  padding-bottom: 40%;
+}
+
+.logo {
+  display: flex;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10%;
+}
+
+.fond {
+  top: 0px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Glicker", Arial, sans-serif;
+  color: white;
+  margin-top: 20%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.play {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Glicker", Arial, sans-serif;
+  font-size: 20px;
+  background-color: #ffab1f;
+  padding: 20px;
+  border-radius: 200px;
+  transition: 1s;
+  border: none;
+}
+
+button:hover,
+button:active {
+  background-color: #b7d492;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  transform: translateY(5px);
+}
+
+.wave {
+  position: absolute;
+  z-index: -1;
+  bottom: -1px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.rules-part {
+  background-color: #b7d492;
+  padding: 5%;
+}
+
+.rules {
+  padding-top: -100px;
+}
+
+.rules-setup {
+  display: flex;
+}
+.setup-left {
+  width: 50%;
+}
+
+.setup-right {
+  width: 50%;
+}
+.board {
+  margin-top: 10%;
+  padding: 5%;
+  width: 100%;
+}
+
+.bonus-cards {
+  display: flex;
+  margin-right: 10%;
+}
+
+.bonus-left {
+  width: 50%;
+}
+
+.bonus-right {
+  padding-top: 5%;
+  width: 50%;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  background-color: #b7d492;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.title2 {
+  margin-top: -5%;
+}
